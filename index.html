@@ -9,134 +9,192 @@
 	</head>
 	<body>
 
-		<header>
+		<header class="main-header">
 			<div class="container">
-				<a class="header-logo">
-					<img src="img/nerds-logo.svg" alt="Логотип Нёрдс" width="160" height="65">
-				</a>
-				<nav class="main-navigation">
-					<ul class="site-navigation default-list">
-						<li class="site-item">
-							<a href="#">Студия</a>
+				<div class="header-column">
+					<a class="header-logo">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160 65" width="160" height="65" 
+						style="enable-background:new 0 0 160 65;" xml:space="preserve">
+							<g>
+								<path d="M157.9,49.4c-1.2,0.2-2.5,0.3-3.8,0.4c0,0.1,0,0.1,0,0.1c-2.4,17.4-26.2,20.2-26.8,6.6c-0.3-6.2,11.6-8,23.4-9.1
+									c0.4-11.1-15.9,5.7-21.6-4.6c-5-9,14.6-17.9,16.7-16.1c6.4,5.6,3.4,6.6-1.4,8.3c-9.5,3.4-5.8,4.1-4.5,3.7c7.6-2.3,14.4-1,14.3,8.3
+									c1.3-0.1,2.5-0.2,3.8-0.3C160.4,46.5,160.6,49.2,157.9,49.4z M150.4,50.1c-9.1,1-17,2.4-16.2,5.4C136,61.1,147.8,62.3,150.4,50.1z"
+									/>
+							</g>
+							<g>
+								<path d="M117.7,44.9c-0.7,0-0.7-6,0.1-11.7c1-7,11.9-3.4,9.1-1.9c-3,1.5-4.4,8.7-6.3,12.1C120,44.6,118,44.9,117.7,44.9z"/>
+							</g>
+							<g>
+								<path d="M42.1,21c2.4,4.9-4.9,8.2-8.3,4.5c-1.4-1.6-0.8-4.6,2.6-6.2C38.1,18.5,40.5,17.7,42.1,21z"/>
+							</g>
+							<g>
+								<path d="M57.1,18.9c2.6,5.3-5.4,8.9-9,4.9c-1.5-1.7-0.8-5,2.9-6.7C52.8,16.1,55.3,15.3,57.1,18.9z"/>
+							</g>
+							<g>
+								<path d="M28.9,61.7C21,67,14.7,65.8,16.7,50.8c1.5-10.9-0.9-11.5-3.1-9.4c-2.8,2.7-4.6,9.7-4.7,16.4c0.3,1.7,0.6,3.3,1,4.8
+									c0.3,1.6-4.9,3.3-8,1C0.8,62.8,0,54.9,0,44.1C0,35.3,1.2,29.2,2.2,29c8-2.2,9.3,1.3,7.6,8c-0.7,2.8-1.2,5.4-1.4,7.9
+									c1.7-4.7,4.1-8.5,6.8-10.2c7.4-4.7,13.6-2.5,12.4,6.8c-2,16.6-2.2,18.8-0.4,17.5C29.5,57.5,30.9,60.3,28.9,61.7z"/>
+							</g>
+							<g>
+								<path d="M55,59.6c-2.2,3.5-7.8,5.2-13.2,4.6C34,63.3,29.2,56.4,31.1,46c2-11.2,18.1-18.3,23.2-10.3c3.7,5.8-2.2,16-11.6,19.8
+									c-0.2,0.1-0.3,0.1-0.5,0.2c2,5.2,6.6,7.5,11,2.4C55.3,55.7,56.8,56.7,55,59.6z M41.4,52.2c5.9-4.2,7.8-13.3,6.2-15.9
+									c-1.7-2.7-5.1,1.5-6.2,11.7C41.2,49.5,41.2,50.9,41.4,52.2z"/>
+							</g>
+							<g>
+								<path d="M83.1,45c-1.6,2.5-3.9,4.4-6,5.1c-2.4,0.7-5.2,0.1-5.2-2.7c0-1,0.9-3.4,3.6-4.7c-0.2-1.9-1.4-2.4-2.3-1.7
+									c-3.3,2.6-7.4,12.3-6.4,19.2c0.1,0.2,0.1,0.3,0.1,0.5c0.2,0.6,0.3,1.2,0.6,1.9c0.6,1.6-4.9,3.3-8,1c-1.1-0.8-1.6-7-1.6-17.7
+									c0-8.8,2-16.6,3-16.9c6.4-1.7,10.1,1.3,8.1,7.2c-1.2,3.4-2.2,6.8-2.8,10.4c2.5-6.7,6.5-12.9,9.8-14.5c5.9-2.9,10.1,1,8.9,7.8
+									c-0.1,0.1-0.1,0.4-0.1,0.4c-0.1,0.6-0.6,2.3-0.4,1.7C83.9,43.7,83.5,44.3,83.1,45z"/>
+							</g>
+							<g>
+								<path d="M113.2,26.2c-0.4,2.3-0.8,4.8-1.1,7.5c-1.1,10.1-0.6,19,0.6,23c0.7,2.1,3.5,4.9,6.1,2c2.8-3.2,6-1.3,2.2,2.4
+									c-2.3,2.3-6.7,3.9-11,3.4c-3.1-0.4-5-2.4-6.1-5.5c-0.4,0.9-0.9,1.7-1.6,2.3c-2.1,2.2-4.7,3.4-8,3.1c-6.6-0.7-10.5-7.9-8.7-18.2
+									c2-10.8,11.3-14.7,16.7-11.9c0.1-1.3,0.2-2.7,0.3-4.1c0.1-0.3,0.1-0.6,0.1-0.8c-1.6,0.3-3.2,0.7-5,1c-24,4-15.7-15.6-9.9-20.7
+									c6.6-5.7,7.4-1.9,5.3-0.6c-3.7,2.4-5.3,15.9,5.2,15.9c1.7,0,3.3-0.1,5-0.3c3.3-18.3,13.3-27.2,21.4-24.3
+									C133.7,3.8,132.8,18.1,113.2,26.2z M102.3,50.6c-0.2-3.5-0.2-7.5-0.2-11.6c0-0.5,0.1-1,0.1-1.5c-3.3-1.5-6.6,3.7-7.5,10.8
+									c-0.9,8.4,2.8,12.8,4.9,10.8C101.2,57.4,102.1,52.2,102.3,50.6z M126.4,7.4c-1.8-2.6-8.3,0.6-12.1,14.3
+									C123.8,17.2,127.6,9.3,126.4,7.4z"/>
+							</g>
+							</svg>
+
+						<!-- <img src="img/nerds-logo.svg" alt="Логотип Нёрдс" width="160" height="65"> -->
+					</a>
+					<nav class="main-navigation">
+						<ul class="site-navigation default-list">
+							<li class="site-item">
+								<a href="#">Студия</a>
+							</li>
+							<li class="site-item">
+								<a href="#">Клиенты</a>
+							</li>
+							<li class="site-item">
+								<a href="catalog.html">Магазин</a>
+							</li>
+							<li class="site-item">
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+						<ul class="cart-navigation default-list">
+							<li class="cart-login">
+								<a href="#">Корзина</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header-title">
+					<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
+				</div>
+				<section class="features slider">
+					<h2 class="visually-hidden">Наши достоинства</h2>
+					<div class="slider-switches">
+						<i class="switch-active">Первый</i>
+						<i>Второй</i>
+						<i>Третий</i>
+					</div>
+					<!-- <div class="slider-switches">
+						<label for="slide1" class="slider-point" title="Первый">1</label>
+						<label for="slide2" class="slider-point" title="Второй">2</label>
+						<label for="slide3" class="slider-point" title="Третий">3</label>
+						<input class="visually-hidden" type="radio" id="slide1" name="switch" checked>
+						<input class="visually-hidden" type="radio" id="slide2" name="switch">
+						<input class="visually-hidden" type="radio" id="slide3" name="switch">
+					</div> -->
+					<ul class="features-list default-list">
+						<li class="features-item">
+							<h3>Долго, дорого, скрупулезно.</h3>
+							<p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+							<a href="#" class="btn features-btn">Узнать больше</a>
 						</li>
-						<li class="site-item">
-							<a href="#">Клиенты</a>
+						<li class="features-item">
+							<h3>Любим математику как никто другой</h3>
+							<p>Никакого креатива, только математические zормулы для расчета идеальных пропорций</p>
+							<a href="#" class="btn features-btn">Узнать больше</a>
 						</li>
-						<li class="site-item">
-							<a href="catalog.html">Магазин</a>
-						</li>
-						<li class="site-item">
-							<a href="#">Контакты</a>
+						<li class="features-item">
+							<h3>Только ночь,<br> только хардкор</h3>
+							<p>Работать днем, как все? Мы против этого.<br> Ближе к полуночи работа только начинается.</p>
+							<a href="#" class="btn features-btn">Узнать больше</a>
 						</li>
 					</ul>
-					<ul class="cart-navigation default-list">
-						<li class="user-login">
-							<a href="#">Корзина</a>
-						</li>
-					</ul>
-				</nav>
+				</section>
 			</div>
 		</header>
 
 		<main class="container">
-			<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
-			<section class="features slider">
-				<h2 class="visually-hidden">Наши достоинства</h2>
-				<div class="slider-switches">
-					<label for="slide1" class="slider-point" title="Первый">1</label>
-					<label for="slide2" class="slider-point" title="Второй">2</label>
-					<label for="slide3" class="slider-point" title="Третий">3</label>
-					<input class="visually-hidden" type="radio" id="slide1" name="switch" checked>
-					<input class="visually-hidden" type="radio" id="slide2" name="switch">
-					<input class="visually-hidden" type="radio" id="slide3" name="switch">
-				</div>
-				<ul class="features-list default-list">
-					<li class="features-item">
-						<h3>Долго, дорого, скрупулезно.</h3>
-						<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-						<a href="#" class="btn features-btn">Узнать больше</a>
-					</li>
-					<li class="features-item">
-						<h3>Любим математику как никто другой</h3>
-						<p>Никакого креатива, только математические zормулы для расчета идеальных пропорций</p>
-						<a href="#" class="btn features-btn">Узнать больше</a>
-					</li>
-					<li class="features-item">
-						<h3>Только ночь, только хардкор</h3>
-						<p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-						<a href="#" class="btn features-btn">Узнать больше</a>
-					</li>
-				</ul>
-			</section>
+			
 
 			<section class="products">
 				<h2 class="visually-hidden">Наши продукты</h2>
 				<ul class="products-list default-list">
-					<li class="products-item">
+					<li class="products-item products-item1">
 						<h3>Веб-сайты</h3>
 						<p>Мир никогда не будет прежним после того как увидит ваш сайт</p>
 						<a href="#">Заказать</a>
 					</li>
-					<li class="products-item">
+					<li class="products-item products-item2">
 						<h3>Приложения</h3>
 						<p>Покорите топ-10 приложений в AppStore и Google Play</p>
 						<a href="#">Заказать</a>
 					</li>
-					<li class="products-item">
+					<li class="products-item products-item3">
 						<h3>Презентации</h3>
 						<p>Вы даже не подозреваете, насколько вы изумительны!</p>
 						<a href="#">Заказать</a>
 					</li>
 				</ul>
 			</section>
+			<div class="about-column">
+				<section class="about">
+					<h2>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+					<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+					<h3>Выполняем заказы на разработку:</h3>
+					<ul class="about-works default-list">
+						<li class="works-item">
+							Веб-сайтов любой сложности
+						</li>
+						<li class="works-item">
+							Мобильных приложений для iOS и Android
+						</li>
+						<li class="works-item">
+							Слайдшоу и видео для корпоративных презентаций
+						</li>
+					</ul>
+				</section>
 
-			<section class="about">
-				<h2>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
-				<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-				<h3>Выполняем заказы на разработку:</h3>
-				<ul class="about-works default-list">
-					<li class="works-item">
-						Веб-сайтов любой сложности
-					</li>
-					<li class="works-item">
-						Мобильных приложений для iOS и Android
-					</li>
-					<li class="works-item">
-						Слайдшоу и видео для корпоративных презентаций
-					</li>
-				</ul>
-			</section>
-
-			<section class="results">
-				<h2 class="visually-hidden">Наши достижения</h2>
-				<table class="results-list">
-					<caption>С 2004 года Любим точность во всем:</caption>
-					<tr>
-						<td>146<sup>%</sup></td>
-						<td>100<sup>%</sup></td>
-						<td>50<sup>%</sup></td>
-					</tr>
-					<tr>
-						<th>Уровень самоотдачи</th>
-						<th>Соблюдение сроков</th>
-						<th>Минимальная предоплата</th>
-					</tr>
-				</table>
-			</section>
+				<section class="results">
+					<h2 class="visually-hidden">Наши достижения</h2>
+					<div class="results-column">
+						<h3>С 2004 года Любим точность во всем:</h3>
+						<table class="results-list">
+							
+							<tr>
+								<td>146<sup>%</sup></td>
+								<td>100<sup>%</sup></td>
+								<td>50<sup>%</sup></td>
+							</tr>
+							<tr>
+								<th>Уровень самоотдачи</th>
+								<th>Соблюдение сроков</th>
+								<th>Минимальная предоплата</th>
+							</tr>
+						</table>
+					</div>
+				</section>
+			</div>
 			<section class="clients">
 				<h2 class="visually-hidden">Наши довольные клиенты</h2>
 				<ul class="clients-list default-list">
 					<li class="clients-item">
-						<a href="#"><img src="img/logo-1.png" alt="Логотип"></a>
+						<a href="#"><img src="img/logo-1.png" alt="Логотип HTML Academy" width="199" height="68"></a>
 					</li>
 					<li class="clients-item">
-						<a href="#"><img src="img/logo-2.png" alt="Логотип"></a>
+						<a href="#"><img src="img/logo-2.png" alt="Логотип Барбершоп Бородинский" width="209" height="90"></a>
 					</li>
 					<li class="clients-item">
-						<a href="#"><img src="img/logo-3.png" alt="Логотип"></a>
+						<a href="#"><img src="img/logo-3.png" alt="Логотип Pink" width="185" height="72"></a>
 					</li>
 					<li class="clients-item">
-						<a href="#"><img src="img/logo-4.png" alt="Логотип"></a>
+						<a href="#"><img src="img/logo-4.png" alt="Логотип Мишка" width="173" height="84"></a>
 					</li>
 				</ul>
 			</section>
@@ -147,36 +205,57 @@
 				<div class="contacts-map">
 					<img src="img/map-marker.jpg" alt="Мы находимся по адресу 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="1440" height="416">
 				</div>
-				<section class="contacts-feedback">
+				<section class="contacts-form">
 					<h3>Nёrds design studio</h3>
 					<p class="feedback-address">191186, Санкт-Петербург,<br>
 					ул. Б. Конюшенная, д. 19/8</p>
 					<p class="feedback-tel">тел. +7 (812) 275-75-75</p>
-					<button class="btn feedback-btn" type="button" title="">Напишите нам</button>
+					<div class="contacts-btn">
+						<a class="btn feedback-btn" href="feedback.html" title="Отправить сообщение">Напишите нам</a>
+					</div>
+					<!-- <button class="btn feedback-btn" type="button" title="">Напишите нам</button> -->
 				</section>
 			</section>
-			<div class="container">
+			<div class="container footer-column">
 				<ul class="footer-social default-list">
 					<li>
 						<a href="#" class="social-btn social-btn-vk">
 							<span class="visually-hidden">ВКонтакте</span>
-							<!-- <svg></svg> -->
-						</a></li>
-					<li><a href="#" class="social-btn social-btn-fb">
+							<svg version="1.1" id="Layer_vk" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 26 15" style="enable-background:new 0 0 26 15;" xml:space="preserve" width="26" heght="15"  x="50%" y="50%">
+								<path fill="#ffffff" d="M16.1,11.5c1-0.3,2.2,2,3.5,2.9c1,0.7,1.7,0.5,1.7,0.5l3.5-0.1c0,0,1.8-0.1,1-1.6c-0.1-0.1-0.5-1.1-2.6-3
+								c-2.2-2-1.9-1.7,0.7-5.2c1.6-2.2,2.2-3.5,2-4c-0.2-0.5-1.4-0.4-1.4-0.4l-3.9,0c-0.4,0-0.7,0.1-0.9,0.5c0,0-0.6,1.7-1.4,3.1
+								c-1.7,3-2.4,3.1-2.7,3c-0.7-0.4-0.5-1.7-0.5-2.7c0-2.9,0.4-4.1-0.8-4.4C13.9,0.1,13.6,0,12.5,0c-1.4,0-2.6,0-3.2,0.3
+								C8.8,0.6,8.5,1,8.7,1.1c0.3,0,0.8,0.2,1.2,0.6c0.4,0.6,0.4,1.8,0.4,1.8s0.2,3.4-0.5,3.8C9.2,7.6,8.4,7,6.9,4.3
+								C6.1,2.9,5.5,1.3,5.5,1.3S5.4,1.1,5.2,0.9C4.9,0.7,4.6,0.7,4.6,0.7l-3.7,0c0,0-0.6,0-0.8,0.3c-0.2,0.2,0,0.7,0,0.7S3,8.5,6.3,12
+								c3,3.2,6.5,3,6.5,3h1.6c0,0,0.5-0.1,0.7-0.3c0.2-0.2,0.2-0.7,0.2-0.7S15.2,11.8,16.1,11.5z"/>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-btn social-btn-fb">
 							<span class="visually-hidden">Фейсбук</span>
-							<!-- <svg></svg> -->
-						</a></li>
-					<li><a href="#" class="social-btn social-btn-ig">
+							<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 						width="12px" height="22px" viewBox="0 0 12 22" enable-background="new 0 0 12 22" xml:space="preserve">
+								<path fill="#FFFFFF" d="M12,4V0H8C5.791,0,4,1.791,4,4v4H0v4h4v10h4V12h4V8H8V4H12z"/>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-btn social-btn-ig">
 							<span class="visually-hidden">Инстаграм</span>
-							<!-- <svg></svg> -->
-						</a></li>
+							<svg enable-background="new 0 0 21 21" height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg">
+								<path d="m18 0h-15c-1.65 0-3 1.35-3 3v15c0 1.65 1.35 3 3 3h15c1.65 0 3-1.35 3-3v-15c0-1.65-1.35-3-3-3zm-7.5 7c1.93 0 3.5 1.57 3.5 3.5s-1.57 3.5-3.5 3.5-3.5-1.57-3.5-3.5 1.57-3.5 3.5-3.5zm7.5 11h-15v-9h1.181c-.114.482-.181.983-.181 1.5 0 3.59 2.91 6.5 6.5 6.5s6.5-2.91 6.5-6.5c0-.517-.066-1.018-.181-1.5h1.181zm0-11h-4v-4h4z" fill="#fff"/></svg>
+						</a>
+					</li>
 				</ul>
-				<p class="footer-offer">
-					<b>
-						Давайте дружить, это выгодно!
-					</b>
-					Скидка 10% для друзей из социальных сетей.
-				</p>
+				<div class="footer-offer">
+					<p>
+						<b>Давайте дружить, это выгодно!</b>
+					</p>
+					<p>
+						Скидка 10% для друзей из социальных сетей.
+					</p>
+				</div>
 
 			</div>
 		</footer>
